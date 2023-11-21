@@ -1,0 +1,928 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+  <!--<![endif]-->
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Name of your web site" />
+    <meta name="author" content="Marketify" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Arlo | Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200i,300,300i,400,400i,500,500i,600,700,700i,800&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/plugins.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/colors.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/darkMode.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="arlo_tm_all_wrap" data-magic-cursor data-color="crimson">
+      <div class="arlo_tm_settings">
+        <div class="icon">
+          <img class="svg" src="{% static 'img/svg/setting.svg' %}" alt />
+          <a class="link" ></a>
+        </div>
+        <div class="wrapper">
+          <span class="title">Unlimited Colors</span>
+          <ul class="colors">
+            <li><a class="blue" ></a></li>
+            <li><a class="green" ></a></li>
+            <li><a class="brown" ></a></li>
+            <li><a class="pink" ></a></li>
+            <li><a class="orange" ></a></li>
+            <li class="bl"><a class="black" ></a></li>
+            <li class="wh"><a class="white" ></a></li>
+            <li><a class="purple" ></a></li>
+            <li><a class="sky" ></a></li>
+            <li><a class="cadetBlue" ></a></li>
+            <li><a class="crimson" ></a></li>
+            <li><a class="olive" ></a></li>
+            <li><a class="red" ></a></li>
+          </ul>
+          <span class="title">Magic Cursor</span>
+          <ul class="cursor">
+            <li><a class="showme show" ></a></li>
+            <li>
+              <a class="hide" 
+                ><img class="svg" src="{% static 'img/svg/arrow.svg' %}" alt
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="arlo_tm_modalbox_news">
+        <div class="box_inner">
+          <div class="close">
+            <a ><img class="svg" src="{% static 'img/svg/cancel.svg' %}" alt /></a>
+          </div>
+          <div class="description_wrap"></div>
+        </div>
+      </div>
+
+      <div class="arlo_tm_mobile_menu">
+        <div class="mobile_menu_inner">
+          <div class="container">
+            <div class="mobile_in">
+              <div class="logo">
+                <a ><img src="{% static 'img/logo/mobile/dark.png' %}" alt /></a>
+              </div>
+              <div class="my_trigger">
+                <div class="hamburger hamburger--collapse-r">
+                  <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="container">
+            <div class="dropdown_inner">
+              <ul class="anchor_nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arlo_tm_topbar">
+        <div class="container">
+          <div class="topbar_inner">
+            <div class="logo">
+              <a 
+                ><img class="light" src="{% static 'img/logo/classic/light.png' %}" alt
+              /></a>
+              <a 
+                ><img class="dark" src="{% static 'img/logo/classic/dark.png' %}" alt
+              /></a>
+            </div>
+            <div class="menu">
+              <ul class="anchor_nav">
+                <li class="current"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arlo_tm_hero" id="home">
+        <div class="background">
+          <div class="image" data-img-url="{% static 'img/slider/1.jpg' %}"></div>
+          <div class="overlay image" style="background: url({% static 'img/slider/1.jpg' %});"></div>
+        </div>
+        <div class="content">
+          <div class="image_wrap">
+            <div class="main" data-img-url="{% static 'img/about/1.jpg' %}"></div>
+          </div>
+          <div class="name_holder">
+            <h3>Фулфилмент под ключ по всей <span>России</span></h3>
+          </div>
+        </div>
+
+        <div class="arlo_tm_arrow_wrap bounce anchor">
+          <a href="#about"><i class="xcon-angle-double-down"></i></a>
+        </div>
+      </div>
+
+      <!-- <div class="arlo_tm_about" id="about">
+            <div class="container">
+                <h3  style="text-align: center;">Фулфилмент под ключ по всей России</h3>
+            </div>
+            <div class="about_inner">
+                <div class="left">
+                    <div class="about_image_wrap parallax" data-relative-input="true">
+                        <div class="image layer" data-depth="0.1">
+                            <img src="{% static 'img/ratios/550x650.jpg' %}" alt />
+                            <div class="inner" data-img-url="{% static 'img/about/1.jpg' %}"></div>
+                        </div>
+                        <div class="border layer" data-depth="0.2">
+                            <img src="{% static 'img/ratios/550x650.jpg' %}" alt />
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="about_short_contact_wrap">
+                        <ul>
+                            <li>
+                                <img class="svg" src="{% static 'img/svg/gift.svg' %}" alt />
+                                <span><label>Birthday:</label> 01.07.1990</span>
+                            </li>
+                            <li>
+                                <img class="svg" src="{% static 'img/svg/calendar-4.svg' %}" alt />
+                                <span><label>Age:</label> 30</span>
+                            </li>
+                            <li>
+                                <img class="svg" src="{% static 'img/svg/location-1.svg' %}" alt />
+                                <span><label>Location:</label> <a class="href_location" >44 Place, Plano,
+                                    USA</a></span>
+                                </li>
+                                <li>
+                                    <img class="svg" src="{% static 'img/svg/game-controller-2.svg' %}" alt />
+                                    <span><label>Interests:</label> Playstation, Reading</span>
+                                </li>
+                                <li>
+                                    <img class="svg" src="{% static 'img/svg/study-5.svg' %}" alt />
+                                    <span><label>Study:</label> <a class="href_location" > Univercity of
+                                        Chicago</a></span>
+                                    </li>
+                                    <li>
+                                        <img class="svg" src="{% static 'img/svg/degree-1.svg' %}" alt />
+                                        <span><label>Degree:</label> Master</span>
+                                    </li>
+                                    <li>
+                                        <img class="svg" src="{% static 'img/svg/message-3.svg' %}" alt />
+                                        <span><label>Mail:</label> <a
+                                            href="/cdn-cgi/l/email-protection#9ffae7fef2eff3fadff8f2fef6f3b1fcf0f2">mymail&#64;gmail.com</a></span>
+                                        </li>
+                                        <li>
+                                            <img class="svg" src="{% static 'img/svg/call-2.svg' %}" alt />
+                                            <span><label>Phone:</label> <a href="tel:+77 022 177 05 05">+77 022 177 05
+                                                05</a></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="arlo_tm_button">
+                                        <a href="{% static 'img/resume/resume.jpg' %}" download><span>Download CV</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+      <div class="partner_marketplace">
+        <div class="fulfillment">
+          <div class="fulfillment_item">Увеличим ваши продажи</div>
+          <div class="fulfillment_item">Берем всю рутину по логистике на себя</div>
+          <div class="fulfillment_item">Экономим ваше время на поставки</div>
+        </div>
+        <!-- class="partner_marketplace">Работаем с маркетплейсами -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="{% static 'img/partners/kazan-removebg-preview.png' %}"
+                width="8000px"
+                alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="{% static 'img/partners/wildberries-logo.png' %}" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="{% static 'img/partners/Logo-yandexmarket.-kompaktnyi-.png' %}" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="{% static 'img/partners/Lamoda_logo.svg.png' %}" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="{% static 'img/partners/ozon-logo-clear.svg' %}" alt="" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                  src="{% static 'img/partners/kazan-removebg-preview.png' %}"
+                  width="8000px"
+                  alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="{% static 'img/partners/wildberries-logo.png' %}" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="{% static 'img/partners/Logo-yandexmarket.-kompaktnyi-.png' %}" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="{% static 'img/partners/Lamoda_logo.svg.png' %}" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="{% static 'img/partners/ozon-logo-clear.svg' %}" alt="" />
+              </div>
+          </div>
+          <!-- If we need pagination -->
+
+          <!-- If we need navigation buttons -->
+
+          <!-- If we need scrollbar -->
+        </div>
+      </div>
+      <h1 class="works_title">WORKS</h1>
+      <div class="works">
+        <div class="works_item wow fadeInLeft">
+          <img src="{% static 'img/advantages/workkey.png' %}" alt="" />
+          <div class="inner">
+            Оказываем услуги «под ключ»
+            <h6>Забор товаров, хранение,<br> комплектация, отправка и работа <br> с возвратами</h6>
+          </div>
+        </div>
+        <div class="works_item wow fadeInLeft">
+          <img src="{% static 'img/advantages/everyday.png' %}" alt="" />
+
+          <div class="inner">
+            Работаем 24/7
+            <h6>СДТ - непрерывно <br> действующая организация<br>24 часа 365 <br> дней в году</h6>
+          </div>
+        </div>
+        <div class="works_item wow fadeInLeft">
+          <img src="{% static 'img/advantages/sklad.png' %}" alt="" />
+
+          <div class="inner">
+            Свой склад в Москве
+            <h6>Удобное расположение,<br> надежное хранение,<br> быстрая логистика.</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="marketplace">
+        <h1 class="marketplace_title">Работа с маркетплейсами</h1>
+        <div class="marketplace_wrap">
+          <div class="marketplace_item">
+            <img src="{% static 'img/svg/confirmProduct.svg' %}" alt="" /> Подготовка ваших товаров
+            под стандарты маркетплейсов
+          </div>
+          <div class="marketplace_item">
+            <img src="{% static 'img/svg/formation.svg' %}" alt="" />Формирование и доставка ваших
+            грузов до торговой площадки
+          </div>
+          <div class="marketplace_item">
+            <img src="{% static 'img/svg/shtrih.svg' %}" alt="" />Нанесение штрих-кодов и учет
+            «Честного знака»
+          </div>
+          <div class="marketplace_item">
+            <img src="{% static 'img/svg/cargo.svg' %}" alt="" />Карго доставка до консолидационного
+            склада
+          </div>
+          <div class="marketplace_item">
+            <img src="{% static 'img/svg/graphic.svg' %}" alt="" />Ведение магазинов
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class=" container">
+          <div class="fulfillment_wrap">
+              <div id="roadmap-container" class="roadmap-container">
+                  <div class="roadmap-auto">
+              <div class="spacer-block">&nbsp;</div>
+              <div class="roadmap-timeline">
+                <div class="timeline-dot">&nbsp;</div>
+                <div class="timeline-list">
+                  <div class="timeline-list-vr">&nbsp;</div>
+                  <div class="timeline-list-col timeline-col-left">
+                    <div class="timeline-item-block timeline-item-block-green">
+                        <div class="timeline-item-label-hr">
+                            <div class="item-dot timeline-dot">&nbsp;</div>
+                        </div>
+                      <div class="timeline-item-label2">Вы</div>
+                      <div class="timeline-item-content">
+                          <p>Оформляете заявку</p>
+                      </div>
+                    </div>
+
+                    <div
+                    class="timeline-item-block timeline-item-block-mobile timeline-item-block-violet">
+                    <div class="timeline-item-label-hr">
+                        <div class="item-dot timeline-dot">&nbsp;</div>
+                    </div>
+                    <div class="timeline-item-label2">Мы</div>
+                    <div class="timeline-item-content">
+                        <p>Принимаем товар в Кыргызстане</p>
+                      </div>
+                    </div>
+                    
+                    <div class="timeline-item-block timeline-item-block-blue">
+                        <div class="timeline-item-label-hr">
+                            <div class="item-dot timeline-dot">&nbsp;</div>
+                        </div>
+                        <div class="timeline-item-label2">Мы</div>
+                        <div class="timeline-item-content">
+                            <p>Упаковываем и отправляем карго</p>
+                      </div>
+                    </div>
+
+                    <div
+                    class="timeline-item-block timeline-item-block-mobile timeline-item-block-green2">
+                    <div class="timeline-item-label-hr">
+                        <div class="item-dot timeline-dot">&nbsp;</div>
+                    </div>
+                    <div class="timeline-item-label2">Мы</div>
+                    <div class="timeline-item-content">
+                        <p>Получаем товар в Москве</p>
+                    </div>
+                    </div>
+
+                    <div
+                    class="timeline-item-block timeline-item-block17q4 timeline-item-block-green">
+                    <div class="timeline-item-label-hr">
+                        <div class="item-dot timeline-dot">&nbsp;</div>
+                    </div>
+                    <div class="timeline-item-label2">Мы</div>
+                    <div class="timeline-item-content">
+                        <p>Доставляем до консолидационного центра маркетплейса</p>
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-list-col timeline-col-right">
+                    <div
+                    class="timeline-item-block timeline-item-block-right timeline-item-block-violet">
+                    <div class="timeline-item-label-hr">
+                        <div class="item-dot timeline-dot">&nbsp;</div>
+                    </div>
+                    <div class="timeline-item-label2">Мы</div>
+                    <div class="timeline-item-content">
+                        <p>Принимаем товар в Кыргызстане</p>
+                    </div>
+                </div>
+                
+                <div
+                class="timeline-item-block timeline-item-block-right timeline-item-block-green2">
+                <div class="timeline-item-label-hr">
+                    <div class="item-dot timeline-dot">&nbsp;</div>
+                </div>
+                <div class="timeline-item-label2">Мы</div>
+                <div class="timeline-item-content">
+                    <p>Фасуем и наносим штрих-коды</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+      </div> -->
+      <h2 class="roadmap-h2">Цикл работы фулфилмента</h2>
+      <div class="col-lg-6 mb-30">
+        <ul class="list-how-works">
+          <li>
+            <div class="image-how"><span class="img"><img src="{% static 'assets/imgs/page/homepage1/order.png' %}"
+                  alt="transp"></span></div>
+            <div class="info-how">
+              <h5 class="color-brand-2 wow animate__animated animate__fadeIn">Вы: оформляете заявку</h5>
+             
+            </div>
+          </li>
+          <li>
+            <div class="image-how"><span class="img"><img src="{% static 'assets/imgs/page/homepage1/payment.png' %}"
+                  alt="transp"></span></div>
+            <div class="info-how">
+              <h5 class="color-brand-2 wow animate__animated animate__fadeIn">Мы: Принимаем товар в Кыргызстане => 
+                </h5>
+            </div>
+          </li>
+          <li>
+            <div class="image-how"><span class="img"><img src="{% static 'assets/imgs/page/homepage1/warehouse.png' %}"
+                  alt="transp"></span></div>
+            <div class="info-how">
+              <h5 class="color-brand-2 wow animate__animated animate__fadeIn">Упаковываем и отправляем карго </h5>
+            </div>
+          </li>
+          <li>
+            <div class="image-how"><span class="img"><img src="{% static 'assets/imgs/page/homepage1/picked.png' %}"
+                  alt="transp"></span></div>
+            <div class="info-how">
+              <h5 class="color-brand-2 wow animate__animated animate__fadeIn">Получаем товар в Москве </h5>
+            </div>
+          </li>
+          <li>
+            <div class="image-how"><span class="img"><img src="{% static 'assets/imgs/page/homepage1/delivery.png' %}"
+                  alt="transp"></span></div>
+            <div class="info-how">
+              <h5 class="color-brand-2 wow animate__animated animate__fadeIn">Фасуем и наносим штрих-коды </h5>
+            </div>
+          </li>
+          <li>
+            <div class="image-how"><span class="img"><img src="{% static 'assets/imgs/page/homepage1/delivery.png' %}"
+                  alt="transp"></span></div>
+            <div class="info-how">
+              <h5 class="color-brand-2 wow animate__animated animate__fadeIn">Доставляем до консолидационного центра маркетплейса </h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="arlo_tm_section">
+        <!-- <div class="arlo_tm_counter_section">
+          <div class="container">
+            <div class="counter_inner">
+              <ul class="wow fadeInLeft" data-wow-duration="1.5s">
+                <li>
+                  <div class="list_inner">
+                    <h3 class="arlo_tm_counter" data-from="0" data-to="555" data-speed="2000">0</h3>
+                    <span>Happy Clients</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="list_inner">
+                    <h3 class="arlo_tm_counter" data-from="0" data-to="222" data-speed="2000">0</h3>
+                    <span>Projects Finished</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="list_inner">
+                    <h3 class="arlo_tm_counter" data-from="0" data-to="444" data-speed="2000">0</h3>
+                    <span>Awards Won</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="list_inner">
+                    <h3 class="arlo_tm_counter" data-from="0" data-to="777" data-speed="2000">0</h3>
+                    <span>Drinked Pepsi</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="arlo_tm_section" id="news">
+
+      </div>
+      
+      <div class="advent container">
+        <div class="advent_title">Ваши возможности с нами</div>
+        <div class="advent_wrap">
+          <div class="advent_item">
+            <img src="{% static 'img/svg/check_mark.svg' %}" alt="" />Отсутствие затрат и инвестиций
+            в организацию логистики
+          </div>
+          <div class="advent_item">
+            <img src="{% static 'img/svg/check_mark.svg' %}" alt="" />Отсутствие расходов на
+            складской персонал, оборудование и содержание склада
+          </div>
+          <div class="advent_item">
+            <img src="{% static 'img/svg/check_mark.svg' %}" alt="" />Оплата только за полученные
+            услуги, исходя из объема обработанного товара
+          </div>
+        </div>
+      </div>
+      <div class="best_title">Специальное предложение</div>
+      <div class="best_service">
+        <h1 class="best_price">Преимущества</h1>
+        <ol>
+          <li>
+            <p class="best_service_desc">Поставка партии от 2 дней до консолидационного центра</p>
+          </li>
+          <li>
+            <p class="best_service_desc">Упаковка и фулфилмент на нашем складе</p>
+          </li>
+          <li>
+            <p class="best_service_desc">Широкий выбор моделей и ассортиментный ряд в наличии</p>
+          </li>
+        </ol>
+
+        <a href="https:/t.me/Aktan3020"><button class="best_btn">Оставить заявку</button></a>
+      </div>
+
+        
+      <div class="arlo_tm_news">
+        <div class="container">
+          <div class="arlo_tm_main_title">
+            <span>News</span>
+            <h3>Latest News</h3>
+          </div>
+          <div class="news_list">
+            <ul>
+              <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="list_inner">
+                  <div class="image">
+                    <img src="{% static 'img/ratios/ratio-4-3.jpg' %}" alt />
+                    <div class="main" data-img-url="{% static 'img/news/1.jpg' %}"></div>
+                  
+                  </div>
+                  <div class="details">
+                    <h3 class="title">
+                      <a >Developers watch out for these burnout symptoms</a>
+                    </h3>
+                    <p class="date">By <a >Alex Watson</a> <span>20 March 2020</span></p>
+                  </div>
+                  <div class="description">
+                    <p>
+                      As Vintage decided to have a closer look into fast-paced New York web design
+                      realm in person, we get to acquaint with most diverse and exceptionally
+                      captivating personalities. As Vintage decided to have a closer look into
+                      fast-paced New York web design realm in person, we get to acquaint with most
+                      diverse and exceptionally captivating personalities. As Vintage decided to
+                      have a closer look into fast-paced New York web design realm in person, we
+                      get to acquaint with most diverse and exceptionally captivating
+                      personalities.
+                    </p>
+                    <blockquote>
+                      As Vintage decided to have a closer look into fast-paced New York web design
+                      realm in person. As Vintage decided to have a closer look into fast-paced
+                      New York web design realm in person, we get to acquaint with most diverse
+                      and exceptionally captivating personalities. As Vintage decided to have a
+                      closer look into fast-paced New York web design realm in person, we get to
+                      acquaint with most diverse and exceptionally captivating personalities.
+                    </blockquote>
+                    <p>
+                      As Vintage decided to have a closer look into fast-paced New York web design
+                      realm in person, we get to acquaint with most diverse and exceptionally
+                      captivating personalities. We encounter professionals with careers to covet
+                      and lives to write books about. As Vintage decided to have a closer look
+                      into fast-paced New York web design realm in person, we get to acquaint with
+                      most diverse and exceptionally captivating personalities. As Vintage decided
+                      to have a closer look into fast-paced New York web design realm in person,
+                      we get to acquaint with most diverse and exceptionally captivating
+                      personalities. As Vintage decided to have a closer look into fast-paced New
+                      York web design realm in person, we get to acquaint with most diverse and
+                      exceptionally captivating personalities.
+                    </p>
+                    <div class="share">
+                      <span>Share:</span>
+                      <ul class="social">
+                        <li>
+                          <a 
+                            ><img class="svg" src="img/svg/social/facebook.svg" alt
+                          /></a>
+                        </li>
+                        <li>
+                          <a ><img class="svg" src="img/svg/social/twitter.svg" alt /></a>
+                        </li>
+                        <li>
+                          <a ><img class="svg" src="img/svg/social/behance.svg" alt /></a>
+                        </li>
+                        <li>
+                          <a 
+                            ><img class="svg" src="img/svg/social/dribbble.svg" alt
+                          /></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+                <div class="list_inner">
+                  <div class="image">
+                    <img src="{% static 'img/ratios/ratio-4-3.jpg' %}" alt />
+                    <div class="main" data-img-url="{% static 'img/news/2.jpg' %}"></div>
+                  
+                  </div>
+                  <div class="details">
+                    <h3 class="title">
+                      <a >How to be appreciated for your hard work as a developer</a>
+                    </h3>
+                    <p class="date">By <a >Brook Kennedy</a> <span>22 May 2020</span></p>
+                  </div>
+                  <div class="description">
+                    <p>
+                      As Vintage decided to have a closer look into fast-paced New York web design
+                      realm in person, we get to acquaint with most diverse and exceptionally
+                      captivating personalities. As Vintage decided to have a closer look into
+                      fast-paced New York web design realm in person, we get to acquaint with most
+                      diverse and exceptionally captivating personalities. As Vintage decided to
+                      have a closer look into fast-paced New York web design realm in person, we
+                      get to acquaint with most diverse and exceptionally captivating
+                      personalities.
+                    </p>
+                    <blockquote>
+                      As Vintage decided to have a closer look into fast-paced New York web design
+                      realm in person. As Vintage decided to have a closer look into fast-paced
+                      New York web design realm in person, we get to acquaint with most diverse
+                      and exceptionally captivating personalities. As Vintage decided to have a
+                      closer look into fast-paced New York web design realm in person, we get to
+                      acquaint with most diverse and exceptionally captivating personalities.
+                    </blockquote>
+                    <p>
+                      As Vintage decided to have a closer look into fast-paced New York web design
+                      realm in person, we get to acquaint with most diverse and exceptionally
+                      captivating personalities. We encounter professionals with careers to covet
+                      and lives to write books about. As Vintage decided to have a closer look
+                      into fast-paced New York web design realm in person, we get to acquaint with
+                      most diverse and exceptionally captivating personalities. As Vintage decided
+                      to have a closer look into fast-paced New York web design realm in person,
+                      we get to acquaint with most diverse and exceptionally captivating
+                      personalities. As Vintage decided to have a closer look into fast-paced New
+                      York web design realm in person, we get to acquaint with most diverse and
+                      exceptionally captivating personalities.
+                    </p>
+                    <div class="share">
+                      <span>Share:</span>
+                      <ul class="social">
+                        <li>
+                          <a 
+                            ><img
+                              class="svg"
+                              src="{% static 'img/svg/social/facebook.svg' %}"
+                              alt
+                          /></a>
+                        </li>
+                        <li>
+                          <a 
+                            ><img class="svg" src="{% static 'img/svg/social/twitter.svg' %}" alt
+                          /></a>
+                        </li>
+                        <li>
+                          <a 
+                            ><img class="svg" src="{% static 'img/svg/social/behance.svg' %}" alt
+                          /></a>
+                        </li>
+                        <li>
+                          <a 
+                            ><img
+                              class="svg"
+                              src="{% static 'img/svg/social/dribbble.svg' %}"
+                              alt
+                          /></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".4s">
+                <div class="list_inner">
+                  <div class="image">
+                    <img src="{% static 'img/ratios/ratio-4-3.jpg' %}" alt />
+                    <div class="main" data-img-url="{% static 'img/news/3.jpg' %}"></div>
+                  
+                  </div>
+                  <div class="details">
+                    <h3 class="title">
+                      <a >How designers and developers can collaborate better</a>
+                    </h3>
+                    <p class="date">By <a >Paola Atkins</a> <span>05 April 2020</span></p>
+                  </div>
+                  <div class="description">
+                    <p>
+                      As Vintage decided to have a closer look into fast-paced New York web design
+                      realm in person, we get to acquaint with most diverse and exceptionally
+                      captivating personalities. As Vintage decided to have a closer look into
+                      fast-paced New York web design realm in person, we get to acquaint with most
+                      diverse and exceptionally captivating personalities. As Vintage decided to
+                      have a closer look into fast-paced New York web design realm in person, we
+                      get to acquaint with most diverse and exceptionally captivating
+                      personalities.
+                    </p>
+                    <blockquote>
+                      As Vintage decided to have a closer look into fast-paced New York web design
+                      realm in person. As Vintage decided to have a closer look into fast-paced
+                      New York web design realm in person, we get to acquaint with most diverse
+                      and exceptionally captivating personalities. As Vintage decided to have a
+                      closer look into fast-paced New York web design realm in person, we get to
+                      acquaint with most diverse and exceptionally captivating personalities.
+                    </blockquote>
+                    <p>
+                      As Vintage decided to have a closer look into fast-paced New York web design
+                      realm in person, we get to acquaint with most diverse and exceptionally
+                      captivating personalities. We encounter professionals with careers to covet
+                      and lives to write books about. As Vintage decided to have a closer look
+                      into fast-paced New York web design realm in person, we get to acquaint with
+                      most diverse and exceptionally captivating personalities. As Vintage decided
+                      to have a closer look into fast-paced New York web design realm in person,
+                      we get to acquaint with most diverse and exceptionally captivating
+                      personalities. As Vintage decided to have a closer look into fast-paced New
+                      York web design realm in person, we get to acquaint with most diverse and
+                      exceptionally captivating personalities.
+                    </p>
+                    <div class="share">
+                      <span>Share:</span>
+                      <ul class="social">
+                        <li>
+                          <a 
+                            ><img
+                              class="svg"
+                              src="{% static 'img/svg/social/facebook.svg' %}"
+                              alt
+                          /></a>
+                        </li>
+                        <li>
+                          <a 
+                            ><img class="svg" src="{% static 'img/svg/social/twitter.svg' %}" alt
+                          /></a>
+                        </li>
+                        <li>
+                          <a 
+                            ><img class="svg" src="{% static 'img/svg/social/behance.svg' %}" alt
+                          /></a>
+                        </li>
+                        <li>
+                          <a 
+                            ><img
+                              class="svg"
+                              src="{% static 'img/svg/social/dribbble.svg' %}"
+                              alt
+                          /></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="arlo_tm_section" id="contact">
+        <div class="arlo_tm_contact">
+          <div class="container">
+            <div class="contact_inner">
+              <div class="arlo_tm_main_title">
+                <span>Contact</span>
+                <h3>Get in Touch</h3>
+              </div>
+              <div class="desc">
+                <p class="wow txt" data-splitting>
+                  Please fill out the form on this section to contact with me. Or call between 9:00
+                  a.m. and 8:00 p.m. ET, Monday through Friday
+                </p>
+              </div>
+              <div class="wrapper">
+                <div class="left wow fadeInLeft" data-wow-duration="1.5s">
+                  <div class="fields">
+                    <form action="/" method="post" class="contact_form" id="contact_form">
+                      <div
+                        class="returnmessage"
+                        data-success="Your message has been received, We will contact you soon."></div>
+                      <div class="empty_notice"><span>Please Fill Required Fields</span></div>
+                      <div class="first">
+                        <ul>
+                          <li>
+                            <input id="name" type="text" placeholder="Name" autocomplete="off" />
+                          </li>
+                          <li>
+                            <input id="email" type="text" placeholder="Email" autocomplete="off" />
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="last">
+                        <textarea id="message" placeholder="Message"></textarea>
+                      </div>
+                      <div class="arlo_tm_button" data-color="dark">
+                        <a id="send_message" >Send Message</a>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="right wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+                  <div class="map_wrap">
+                    <div class="map" id="ieatmaps"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arlo_tm_section">
+        <div class="arlo_tm_copyright">
+          <div class="container">
+            <div class="inner">
+              <div class="copy wow fadeInLeft" data-wow-duration="1.5s">
+                <p>&copy; Copyright 2019-2021. All rights are reserved.</p>
+              </div>
+              <div class="social wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+                <ul>
+                  <li>
+                    <a 
+                      ><img class="svg" src="{% static 'img/svg/social/facebook.svg' %}" alt
+                    /></a>
+                  </li>
+                  <li>
+                    <a 
+                      ><img class="svg" src="{% static 'img/svg/social/twitter.svg' %}" alt
+                    /></a>
+                  </li>
+                  <li>
+                    <a 
+                      ><img class="svg" src="{% static 'img/svg/social/behance.svg' %}" alt
+                    /></a>
+                  </li>
+                  <li>
+                    <a 
+                      ><img class="svg" src="{% static 'img/svg/social/dribbble.svg' %}" alt
+                    /></a>
+                  </li>
+                  <li>
+                    <a 
+                      ><img class="svg" src="{% static 'img/svg/social/tik-tok.svg' %}" alt
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mouse-cursor cursor-outer"></div>
+      <div class="mouse-cursor cursor-inner"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js' %}"></script> <![endif]-->
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/init.js' %}"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"></script>
+    <script type="module">
+      import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
+
+      // const swiper = new Swiper('.swiper', {
+      //     slidesPerView: 5,
+      //     spaceBetween: 0,
+      //     loop: true,
+      //     speed: 800,
+      //     autoplay: {
+      //         delay: 0,
+      //     },
+      //     navigation: {
+      //         nextEl: '.swiper-button-next',
+      //         prevEl: '.swiper-button-prev',
+      //     },
+      //     // Дополнительные настройки по вашему выбору
+      // });
+      var mySwiper = new Swiper('.swiper', {
+        loop: true, // Включает бесконечную карусель
+        slidesPerView: 5, // Количество отображаемых слайдов
+        spaceBetween: 10,
+        speed: 10000,
+        autoplay: {
+          delay: 0, // Задержка между переключением слайдов в миллисекундах
+          disableOnInteraction: false, // Отключает отключение автовоспроизведения при взаимодействии пользователя
+        },
+        // Расстояние между слайдами (по желанию)
+        // Добавьте другие опции по необходимости
+      });
+    </script>
+  </body>
+</html>
